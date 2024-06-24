@@ -1,0 +1,17 @@
+.contact_title{
+    display: flex;
+    flex-flow: column;
+    align-items:flex-start;
+    justify-items: center;
+    max-width: 1000px;
+    width: 30%;
+    margin: 50px auto;
+}
+h1{
+    font-size: 2.0rem;
+    color: #fff;
+}
+h2{
+    font-size: 1.2rem;
+}
+

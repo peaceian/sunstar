@@ -1,0 +1,23 @@
+/* body{
+    background-image: url('/public/images/spiral.jpg');
+} */
+.story_container{
+    max-width: fit-content;
+    width: 100%;
+    margin:0;
+}
+.story_content{
+    width: 80%;
+    margin: 100px auto;
+    text-align:left;
+}
+.story_content>h1{
+    text-align: left;
+    font-size: 2.5rem;
+}
+.story_content>h2{
+    font-size: 1.5rem;
+}
+.story_content>p{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,8 @@
+.contact_info{
+    color: #aaf9f2;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+p[class='contact_info']{
+    margin-left: 50px;
+}

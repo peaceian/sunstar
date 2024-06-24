@@ -1,0 +1,23 @@
+.footer_container{
+    background-color: #242424;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 10px;
+    margin: 100px 0px;
+}
+.footer_text{
+    color: #fff;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    text-align: center;
+    margin:0;
+    width: 100%;
+}
+.logo{
+    flex-direction:row;
+    text-wrap:nowrap;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
