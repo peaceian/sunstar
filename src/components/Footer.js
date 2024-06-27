@@ -72,7 +72,7 @@ function Footer() {
                     <div className='social-icons'>
                         <Link className='social-icon-link line'
                             to='/linesocial'
-                            target='_blank'
+                            target=""
                             aria-label='Line'
                         >
                             <i className="fa-brands fa-line"></i>
