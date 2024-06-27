@@ -54,10 +54,67 @@
     border-radius: 5px;
 }
 
-@media (max-width:800px) {
-    .thumb{
-        width: 400px;
-        height: 300px;
+@media screen and (max-width: 1024px){
+    .card_thumb{
+        max-width: 100%;
+        width: 200px;
+        height: auto;
+        object-fit: cover;
+    }
+    .card_body{
+        padding: 10px;
+        height: auto;
+        width: 200px;
+    }
+    .products_card{
+        margin: 9px;
+        padding: 10px;
+    }    
+}
+@media screen and (max-width: 960px){
+    .card_thumb{
+        width: 380px;
+        height: auto;
+        object-fit: cover;
+    }
+    .card_body{
+        padding: 10px;
+        height: auto;
+        width: 380px;
+    }
+    .products_card{
+        margin: 10px;
+        padding: 10px;
+    }
+    .card_title {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .card_price {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .card_button{
+        font-size: 1.5rem;
+        padding: 5px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+    }
+    
+}
+@media screen and (max-width:860px) {
+    .products_card{
+        margin: 10px;
+    }
+    .card_thumb{
+        width: 200px;
+        height: auto;
+        object-fit: cover;
+    }
+    .card_body{
+        padding: 10px;
+        height: auto;
+        width: 200px;
     }
     .card_title {
         font-size: 1.0rem;
@@ -73,7 +130,70 @@
         border: 1px solid #fff;
         border-radius: 5px;
     }
+        
+}
+@media screen and (max-width: 780px){
+    .card_thumb{
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+    .card_body{
+        padding: 10px;
+        height: auto;
+        width: 300px;
+    }
     .products_card{
-        height: 67vh;
-    }    
+        margin: 20px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 550px){
+    .card_thumb{
+        width: 390px;
+        height: auto;
+        object-fit: cover;
+    }
+    .card_body{
+        padding: 10px;
+        height: auto;
+        width: 390px;
+    }
+    .products_card{
+        margin: 10px;
+        margin-left: 40px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 450px){
+    .card_thumb{
+        width: 330px;
+        height: auto;
+        object-fit: cover;
+    }
+    .card_body{
+        padding: 10px;
+        height: auto;
+        width: 330px;
+    }
+    .products_card{
+        margin: 20px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 400px){
+    .card_thumb{
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+    .card_body{
+        padding: 10px;
+        height: auto;
+        width: 300px;
+    }
+    .products_card{
+        margin: 10px;
+        padding: 10px;
+    }
 }

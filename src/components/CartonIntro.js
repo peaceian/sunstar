@@ -18,22 +18,22 @@ const CartonIntro = () => {
             <td>三層A浪</td>
             <td>5mm</td>
             <td>玻璃瓶等防撞需求產品使用。</td>
-            <td><img src='images/3A.png' width={400} height={100} alt='3A' /></td>
+            <td><img src='images/3A.png' alt='3A' /></td>
           </tr>
           <tr>
             <td>三層B浪</td>
             <td>3mm</td>
             <td>多為內盒及零件包裝所使用的紙板。</td>
-            <td><img src='images/3B.png' width={400} height={100} alt='3B' /></td>
+            <td><img src='images/3B.png' alt='3B' /></td>
           </tr>
           <tr>
             <td>五層AB浪</td>
             <td>8mm</td>
             <td>最泛用紙箱材質，適合大部分產品的包裝運送用途。</td>
-            <td><img src='images/5AB.png' width={400} height={100} alt='5AB' /></td>
+            <td><img src='images/5AB.png' alt='5AB' /></td>
           </tr>
         </table>
-        <h3>*圖片以紙箱垂直面拍攝</h3>
+        <h3>*圖片以紙箱垂直面拍攝，稍有誤差，請以實物為主。</h3>
       </div>
     </div>
 

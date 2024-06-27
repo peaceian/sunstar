@@ -27,9 +27,10 @@ function Locate() {
           <h2>39（三重 － 臺北車站）</h2>
           <h2>539（三重 － 馬偕醫院）</h2>
           <h2>927（三重 － 八里）</h2>
+          <br/>
         </div>
         <div className='map'>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2027.8326990169767!2d121.47531860819956!3d25.095531167955606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442afb874f2b425%3A0xf5347db36062043a!2z5pel5pif57SZ5Zmo5pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1718116560883!5m2!1szh-TW!2stw" width={500} height={400} style={{ border: '0', borderRadius: '15px', boxShadow: '0 0 5px #ccc' }} title='locate' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2027.8326990169767!2d121.47531860819956!3d25.095531167955606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442afb874f2b425%3A0xf5347db36062043a!2z5pel5pif57SZ5Zmo5pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1718116560883!5m2!1szh-TW!2stw" width={300} height={300} style={{ border: '0', borderRadius: '15px', boxShadow: '0 0 5px #ccc' }} title='locate' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
         </div>
       </div>
     </>

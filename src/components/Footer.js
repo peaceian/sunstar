@@ -20,8 +20,9 @@ function Footer() {
                         <Button buttonStyle="btn--outline">Subscribe</Button>
                     </form> */}
                 {/* </div> */}
-                <><Contact /></>
+                
             </section>
+            <Contact />
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>

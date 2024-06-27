@@ -6,11 +6,10 @@ form {
     flex-flow: column;
     align-items:flex-start;
     justify-items: center;
-    max-width: 1000px;
+    max-width: auto;
     width: 30%;
     font-size: 16px;
     margin: 50px auto;
-
 }
 
 input {
@@ -63,4 +62,28 @@ input[type='submit']:hover{
     border-inline: 1px solid #9d9d9d;
     transform: scale(1.01);
     transition: all 0.3s ease-out;
+}
+@media screen and (max-width: 960px) {
+    form {
+        max-width: 960px;
+        width: 70%;
+        font-size: 16px;
+        margin: 50px auto;
+    }
+}
+@media screen and (max-width: 550px) {
+    form {
+        max-width: 550px;
+        width: 70%;
+        font-size: 16px;
+        margin: 50px auto;
+    }
+}
+@media screen and (max-width: 450px) {
+    form {
+        max-width: 450px;
+        width: 70%;
+        font-size: 16px;
+        margin: 50px auto;
+    }    
 }
