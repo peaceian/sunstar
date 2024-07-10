@@ -5,7 +5,7 @@ video {
     position: fixed;
     z-index: -1;
 }
-.hero-container{
+.section-container{
     /* background: url('/public/images/glasses.jpg') center center/cover no-repeat; */
     height: 100vh;
     width: 100%;
@@ -16,22 +16,29 @@ video {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
 }
-.hero-container>h1{
+.section-container>h1{
     color: #fff;
     font-size: 8rem;
     margin-top: -100px;
     margin-bottom: 48px;
     font-family: "Noto Serif HK";
 }
-.hero-container>h3{
+h1[class=slogan]{
+    color: #fff;
+    font-size: 5rem;
+    margin-top: -90px;
+    margin-bottom: 48px;
+    font-family: "Noto Serif HK";
+}
+.section-container>h3{
     color: #fff;
     font-size: 4rem;
-    margin-top: -80px;
+    margin-top: -30px;
     /* font-family: sans-serif; */
     font-family: "Noto Serif HK";
 }
 
-.hero-container>p{
+.section-container>p{
     margin-top: 8px;
     color: #fff;
     font-size: 2rem;
