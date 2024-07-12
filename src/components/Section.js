@@ -13,9 +13,9 @@ function Section() {
         <source src={BgVideo} type="video/mp4"/>
       </video>
     
-      <h1>日星紙器企業有限公司</h1>
+      <h1 className='title'>日星紙器企業有限公司</h1>
       <h1 className='slogan'>高品質紙箱產品</h1>
-      <h3>SUNSTAR Enterprise</h3>
+      <h3 className='subtitle'>SUNSTAR Enterprise</h3>
       <p>High Quality Carton Products!</p>
       {/* <div className='hero-btns'>
         <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
