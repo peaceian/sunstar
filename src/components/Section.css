@@ -18,7 +18,7 @@ video {
 }
 h1[class=title]{
     color: #fff;
-    font-size: 8rem;
+    font-size: 7rem;
     margin-top: -100px;
     margin-bottom: 48px;
     font-family: "Noto Serif HK";
@@ -78,7 +78,7 @@ h3[class=subtitle]{
     h3[class=subtitle]{
         font-size: 3rem;
     }
-    .hero-container>p{
+    p[class=subslogan]{
         font-size: 30px;
     }
     .btn-mobile{
@@ -89,15 +89,43 @@ h3[class=subtitle]{
         width: 100%;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:525px){
+    .section-container{
+        height: 80vh;
+    }
     h1[class=title]{
-        font-size: 3rem;
+        font-size: 2.0rem;
         margin-top: -300px;
         padding: 40px;
     }
     h1[class=slogan]{
         color: #fff;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        margin-top: -90px;
+        margin-bottom: 48px;
+    }    
+    h3[class=subtitle]{
+        font-size: 2.0rem;
+        margin-top: -40px;
+    }
+    p[class=subslogan]{
+        /* display: none; */
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:430px){
+    .section-container{
+        height: 80vh;
+    }
+    h1[class=title]{
+        font-size: 1.8rem;
+        margin-top: -300px;
+        padding: 40px;
+    }
+    h1[class=slogan]{
+        color: #fff;
+        font-size: 1.5rem;
         margin-top: -90px;
         margin-bottom: 48px;
     }    
@@ -105,9 +133,9 @@ h3[class=subtitle]{
         font-size: 1.5rem;
         margin-top: -40px;
     }
-    .hero-container>p{
+    p[class=subslogan]{
         /* display: none; */
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         margin-top: 10px;
     }
     .btn-mobile{

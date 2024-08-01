@@ -1,0 +1,8 @@
+h3 {
+    margin-left: 50px;
+}
+@media screen and (max-width:450px){
+    h3{
+        margin-left: 20px;
+    }
+}

@@ -11,9 +11,11 @@
 .products_card{
     margin: 15px;
     padding: 10px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     box-shadow: 0 0 3px #ccc;
     background-color: #f7f7f7;
+    border: none;
+    outline: none;
     height: auto;
     display:inline-block;
 }
@@ -25,14 +27,14 @@
     object-fit: cover;
     display: block;
     cursor: pointer;
-    border-radius: 5px 5px 0px 0px;
+    /* border-radius: 5px 5px 0px 0px; */
     /* box-shadow: 0 0 8px #ccc; */
 }
 
 .card_body{
     padding: 10px;
     background-color: #333333;
-    border-radius: 0px 0px 5px 5px;
+    /* border-radius: 0px 0px 5px 5px; */
     height: auto;
     width: 235px;
 }
