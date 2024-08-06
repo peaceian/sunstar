@@ -9,7 +9,7 @@ function Section() {
   return (
     <div className='section-container'>
       
-      <video autoplay='autoplay' loop muted >
+      <video autoplay='autoplay' loop muted className='video'>
         <source src={BgVideo} type="video/mp4"/>
       </video>
     

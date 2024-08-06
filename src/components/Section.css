@@ -14,8 +14,18 @@ video {
     justify-content: center;
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
+    object-fit:cover;
+    background: center center /cover no-repeat;
 }
+
+.section-container .video{
+    object-fit: cover;
+    overflow: hidden;
+    width:100vw;
+    height: 100vh;
+
+}
+
 h1[class=title]{
     color: #fff;
     font-size: 7rem;
