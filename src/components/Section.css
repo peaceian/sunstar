@@ -156,13 +156,13 @@ h3[class=subtitle] {
 
 @media screen and (max-width:430px) {
 
-    .section-container {
+    /* .section-container {
         background: url('/public/images/solarsystem.jpg') center center/cover no-repeat;
     }
 
     .section-container .video {
         display: none;
-    }
+    } */
 
     .section-container {
         height: 80vh;
