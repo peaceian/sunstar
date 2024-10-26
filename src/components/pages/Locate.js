@@ -8,7 +8,7 @@ function Locate() {
         <div className='info'>
           <h1>廠房地點</h1>
           <br />
-          <h2>地址：新北市蘆洲區民族路323巷320-8號</h2>
+          <h2>地址：新北市蘆洲區復興路323巷320-8號</h2>
           <h2>信箱：sunstarcarton@gmail.com</h2>
           <h2>電話：02-8286-0028</h2>
           <h2>傳真：02-8286-0082</h2>
