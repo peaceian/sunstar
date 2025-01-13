@@ -14,7 +14,7 @@ const Footeralter = () => {
                         </Link>
       </div>
       <div className='footer_text'>
-        <p>SUNSTAR &copy;2024 All Rights Reserved. </p>
+        <p>SUNSTAR &copy;2025 All Rights Reserved. </p>
       </div>
     </div>
   );
