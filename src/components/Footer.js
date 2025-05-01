@@ -68,7 +68,7 @@ function Footer() {
                         <img src="/images/SunStar/SunStar_12.png" alt='logo'width={80}height={80} style={{borderRadius:'50px'}}/>{/* <i class="fa-solid fa-sun"/><i class="fa-solid fa-s" /><i class="fa-solid fa-u" /><i class="fa-solid fa-n" /><i class="fa-solid fa-s" /><i class="fa-solid fa-t" /><i class="fa-solid fa-a" /><i class="fa-solid fa-r" /><i class="fa-solid fa-star"/> */}
                         </Link>
                     </div>
-                    <small className='website-rights'>SUNSTAR &copy;2024 All Rights Reserved.</small>
+                    <small className='website-rights'>SUNSTAR &copy;2025 All Rights Reserved.</small>
                     <div className='social-icons'>
                         <Link className='social-icon-link line'
                             to='/linesocial'
